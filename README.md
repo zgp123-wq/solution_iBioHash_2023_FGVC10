@@ -23,14 +23,17 @@ We used both eva_large_patch14_336.in22k_ft_in1k and beit_large_patch16_512.in22
 sh 
 ```
 #### 3. Feature Extraction
+Here the feature extraction is performed on our trained model for query and gallery and the similarity matrix between the features is calculated.
 ```
 sh 
 ```
-#### 4. Feature Extraction
+#### 4. Model Fusion
+Fusion of the above trained models
 ```
 sh 
 ```
-#### 5. Feature Extraction
+#### 5. Generate hashcode
+Use the MD5 encryption method of hashlib to generate a 12-bit hexadecimal code for the image, and then convert it to a 48-bit hashcode.
 ```
-sh 
+python
 ```
