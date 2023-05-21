@@ -33,7 +33,7 @@ Fusion of the above trained models
 sh 
 ```
 
-#### 4. Similarity matrix post-processing
+#### 5. Similarity matrix post-processing
 Fusion of the above trained models
 ```
 sh 
