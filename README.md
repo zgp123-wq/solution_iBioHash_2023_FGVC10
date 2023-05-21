@@ -28,13 +28,13 @@ Here the feature extraction is performed on our trained model for query and gall
 sh 
 ```
 #### 4. Model Fusion
-Fusion of the above trained models
+Fusion of the above trained models.
 ```
 sh 
 ```
 
 #### 5. Similarity matrix post-processing
-Fusion of the above trained models
+In this step the queries and galleries are grouped according to the similarity matrix, and the same set of queries is a class.
 ```
 sh 
 ```
