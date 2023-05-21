@@ -32,7 +32,13 @@ Fusion of the above trained models
 ```
 sh 
 ```
-#### 5. Generate hashcode
+
+#### 4. Similarity matrix post-processing
+Fusion of the above trained models
+```
+sh 
+```
+#### 6. Generate hashcode
 Use the MD5 encryption method of hashlib to generate a 12-bit hexadecimal code for the image, and then convert it to a 48-bit hashcode.
 ```
 python
